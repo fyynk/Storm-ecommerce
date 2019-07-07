@@ -1,0 +1,204 @@
+
+/* PadronizaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o */
+
+		.fl { float: left; }
+		.cls { clear:both; }
+		p { font-family: Myriad Pro; font-size: 16px; text-align: center; color: white; }
+		a.linkPadrao { text-decoration: none; color:#000; transition: 0.1s; }
+		a.linkPadrao:hover { color: #e8efff; text-decoration: none; }
+
+		/* DivisÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de ConteÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âºdo */
+		.content_divider { border-top: 1px solid #000; width: 100%; }
+		.content_divider2 { border-top: 1px solid #355b9426; width: 100%; margin: 12px auto; }
+		/* DivisÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de ConteÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âºdo */
+
+	/* Teste Cores */
+		.cor0 { background-color: #263241; box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); }
+		.cor1 { background-color: #439686; }
+		.cor2 { background-color: #151d27; }
+		.cor3 { background-color: #355b9426; }
+		.cor4 { background-color: #6d1155; }
+		.cor5 {background-color: #0f1e2dc2;}
+		.cor6 { background-color: #263241; }
+		.cor7 { background-color: #263241; box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); }
+		.cor8 { border: 1px solid #435467; background: rgba(95,115,138,.3); border-radius: 4px; }
+	/* Teste Cores */
+/* PadronizaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o */
+
+/* HTML */
+	
+	main { max-width: 1020px; margin: 0 auto; margin-top: 80px; min-height: 768px; background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%);
+	padding-bottom: 40px; padding-top: 6px; padding-right: 5px; padding-left: 5px; border-radius: 5px; margin-bottom: 20px; }
+
+	.tituloJogo { width: 100%; font-size: 17pt; background-color: #355b9426; text-align: center; color: white; 
+	padding: 5px 0px 5px 0px; font-weight: bold; border-radius: 3px; }
+
+	.flaticonFlag { width: 30px; height: 30px; margin-top: -37px; padding-top: 3.2px; float: right; margin-right: 5px; 
+		background-color: transparent; }
+
+	.flaticonFlag img { width: 100%; height: 100%; }
+
+	/* Carrossel */
+	.swiper-container { width: 1020px; height: 455px; position: relative; border-radius: 5px; }
+	.swiper-pagination-bullets { left: 384px; }
+    .swiper-slide { justify-content: center; align-items: center; }
+    .swiper-slide img { display: block; border-radius: 5px; width: 100%;  }
+
+    #swp-btn-nxt { filter: grayscale(100%) brightness(100); background-color: #00000099;
+    padding: 11px; border-radius: 6px; margin-top: -37px; }
+    #swp-btn-prv { filter: grayscale(100%) brightness(100); background-color: #00000099;
+    padding: 11px; border-radius: 6px; margin-top: -37px; }
+	/* Carrossel */
+
+	/* Sobre Jogo */
+	article {width: 100%;min-height: 400px;margin-top: 35px;border-radius: 10px;box-shadow: none;}
+
+	.descricaoJogo {width: 70%;height: 100%;}
+	.informacaoJogo {width: 30%;min-height: 400px;color: white;text-align: center;}
+
+	.sinopse { width: 100%; height: 100%; border-radius: 11px; }
+	.tituloSinopse p { font-size: 16pt; font-weight: bold; }
+
+	.contSinopse p { color: white; font-size: 12pt; width: 96%; text-align: left; margin: 0 auto; line-height: 25px; }
+	.historia { width: 100%; height: 50%; }
+	.tituloHistoria p { font-size: 20px; }
+	.contHistoria p { color: white; font-size: 14px; width: 90%; text-align: justify; margin: 0 auto;}
+
+	.valorJogo { width: 50%; height: 41px; background-color: #000000; box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); }
+	.valorJogo p { margin: 9px auto; text-align: center; font-weight: bold; color: #1897c5ab; }
+
+	.comprarJogo { width: 50%; height: 10%; text-align: center; background-color: #1897c5ab; 
+	box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); transition: 0.2s; }
+	
+	.comprarJogo p {
+	margin: 9px auto;
+	text-align: center;
+	font-weight: bold;
+	/* margin-top: 8px; */
+	margin: 0;
+	font-size: 13.5pt;
+	padding-bottom: 6px;
+	padding-top: 8.4px;
+	}
+
+	/*CSS*/
+	.comprarJogo { width: 50%; height: 10%; text-align: center; background-color: #114271; box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); }
+		.comprarJogo p { margin: 9px auto; text-align: center; font-weight: bold; margin: 0; padding-bottom: 9px; padding-top: 9.4px; }
+			.comprarJogo a { text-decoration: none; }
+
+	/*---------------------------------------------------------------------*/
+
+	.nComprarJogo { width: 50%; height: 10%; text-align: center; background-image: linear-gradient(#5a5b60, #424347, transparent); box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); }
+		.nComprarJogo p { margin: 9px auto; text-align: center; font-weight: bold; margin: 0; padding-bottom: 9px; padding-top: 9.4px; }
+			.nComprarJogo a { text-decoration: none; }
+
+	/*---------------------------------------------------------------------*/
+
+	.boxTag {width: 100%;padding-bottom: 5px;background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%);box-shadow: 0 2px 7px 0 rgba(0,0,0,.5);}
+	.imgJogo { width: 95%; height: 45%; margin: 5.5px auto; }
+	.imgJogo img { width: 100%; height: 100%; }
+
+	.tags {width: 95%;/* min-height: 224px; */margin: 0 auto;background-color: #151d27;color: #758aba;}
+
+	.categoria {width: 100%;height: 18px;padding-top: 3px;padding-bottom: 3px;font-size: 10.5pt;background-color: #0c121b;border-radius: 2px;}
+	.nm_categoria {
+	width: 18%;
+	padding: 0.2px;
+	padding-top: 7px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 12%;
+	border-radius: 3px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 4px;
+	font-size: 13px;
+	white-space: nowrap!important;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+	background-color: #090d10d4;
+	}
+
+	.desenvolvedor {width: 100%;height: 18px;padding-top: 3px;padding-bottom: 3px;font-size: 10.5pt;background-color: #0c121b;border-radius: 4px;}
+	.nm_desenvolvedor {
+	min-width: 20px;
+	height: 12%;
+	margin-left: 4px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-top: 9px;
+	padding-right: 6px;
+	padding-bottom: 10px;
+	padding-left: 6px;
+	border-radius: 3px;
+	font-size: 9.5pt;
+	text-align: center;
+	background-color: #090d10d4;
+	}
+
+	.plataforma {width: 100%;height: 18px;padding-top: 3px;padding-bottom: 3px;font-size: 10.5pt;background-color: #0c121b;border-radius: 5px;}
+	.nm_plataforma {
+	margin-bottom: 8px;
+	margin-top: 8px;
+	margin-left: 4px;
+	padding-top: 6px;
+	padding-bottom: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 3px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #090d10d4;
+	}
+	/* Sobre Jogo */
+
+	/* Requisitos */
+	.requisito { width: 100%; min-height: 208px; margin-top: 50px; box-shadow: none; border-radius: 10px; }
+
+	.tituloRequisito { font-size: 20px; text-align: center; color: #e8efff; padding-bottom: 6px; 
+	padding-top: 6px; }
+
+	.requisitoMinimo { width: 50%; min-height: 188px; background-color: #151d27; border-bottom-left-radius: 10px; }
+		.contMinimo p { padding-left: 52px; text-align: center; padding-right: 52px;
+		padding-top: 1px; }
+
+	.minimoTodo .tituloMinimo p { margin: 0; }
+	.minimoTodo .requisito { min-height: 225px; }
+	.minimoTodo { width: 100%; padding-top: 13px; min-height: 177px; border-bottom-right-radius: 10px; }
+	.minimoTodo .requisitoMinimo { border-bottom-right-radius: 10px; 
+	min-height: 138px; width: 100%; }
+	.minimoTodo .contMinimo p { line-height: 22px; text-align: center; margin: 0; padding-top: 9px; padding-right: 39px; }
+	.minimoTodo p { line-height: 22px; text-align: center; }
+
+
+	.requisitoSugerido { width: 50%; min-height: 188px; background-color: #151d27; border-bottom-right-radius: 10px; }
+		.contSugerido p { padding-left: 52px; text-align: center; padding-right: 52px;
+		padding-top: 1px; }
+	/* Requisitos */
+
+	/* Coluna Jogo */
+    .col1Titulo p { text-align: center; font-size: 22px; }
+    .col1de4 { width: 20%; height: 205px; padding: 25px; border-radius: 10px; outline: 2px solid #0f101d42;
+    outline-offset: -1px; box-shadow: none; }
+
+    .col1de4 .linkPadrao { font-weight: bold; color: #e8efff; }
+
+    .col1de4 .imgCol1de4 { height: 70%; }
+    .col1de4 .imgCol1de4 img { width: 100%; height: 100%; }
+
+    .titulo { height: 18%; white-space: nowrap!important; 
+    text-overflow: ellipsis; overflow: hidden; line-height: 2;}
+    .valor { margin: 0 auto; width: 100%; height: 13%; text-align: center; margin-top: 2px; 
+    margin-left: 0px; padding-top: 4px; transition: 0.1s; border: 1px solid #4f8188b0;
+    background: #39869e24; border-radius: 5px; }
+
+    .valor:hover { background-color: #172633; color: white; border: 1px solid #315467; }
+
+    .vejaMais img { object-fit: cover; }
+    /* Coluna Jogo */
+
+	/*Main*/
+
+/* HTML */

@@ -1,0 +1,237 @@
+body { padding: 0; margin: 0;}
+html { font-family: Gadugi; background: linear-gradient(0deg, rgba(2,2,5,1) 0%, rgba(21,29,39,1) 100%); }
+
+/* Padronização */
+
+		.fl { float: left; }
+		.cls { clear:both; }
+		p { font-family: Gadugi; font-size: 18px; margin-bottom: 3px; }
+		a.linkPadrao { text-decoration: none; color:#000; }
+		a.linkPadrao:hover { color:#1067b8;}
+
+	/* Teste Cores */
+		.cor1 { background-color: #439686; }
+		.cor2 { background-color: #203851; }
+		.cor3 { background-color: #211551; }
+		.cor4 { background-color: #6d1155; }
+		.cor5 { background-color: #3ea045; }
+		.cor6 { background-color: #3248ad; }
+	/* Teste Cores */
+/* Padronização */
+
+/* HTML */
+
+	/* Header */
+	.contHeader { width: 100%; height: 70px; margin-bottom: 5px; background-color: #090a15;
+	box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); }
+	/*---------------------------------------------------------------------------------------*/
+	.img { height: 55px; width: 55px; margin-left: 5%; padding: 7.4px; }
+
+	.stormTitulo { width: 173px; height: 55px; margin-top: -2.4px;
+	font-size: 50px; padding-left: 0px; font-weight: bold; }
+		.stormTitulo a { text-decoration: none; color: #e8efff; }
+	/*---------------------------------------------------------------------------------------*/
+	.menu { width: 320px; height: 34px; margin-top: 19.4px; margin-left: 21px;}
+
+	.nav { width: 100px; height: 34px; padding-left: 0; margin-top: 0px; } 
+		.nav li { list-style: none; text-align: center; font-size: 13pt; }
+		.nav a { color: #e8efff; text-decoration: none; }
+			.nav a:hover { color: #758aba; transition: 0.1s; }
+	/*---------------------------------------------------------------------------------------*/
+	.nav2 { width: 100px; height: 34px; padding-left: 0; }
+		.nav2 li { list-style: none; text-align: center; height: 34px; font-size: 13pt; 
+		margin-top: 0px; }
+		.nav2 a { color: #e8efff; text-decoration: none; }
+			.nav2 a:hover { color: #758aba; transition: 0.1s; }
+	/*---------------------------------------------------------------------------------------*/
+	.menuPerfilEntrar { width: 169px; height: 69px; float: right; margin-right: 5%; }
+
+	.perfilEntrar { font-size: 13pt; width: 112px; height: 34px; float: left; text-align: center; 
+	margin-top: 19.4px; }
+		.perfilEntrar a { color: #e8efff; text-decoration: none; }
+			.perfilEntrar a:hover { color: #758aba; transition: 0.1s; }
+
+	.iconCarrinho { float: right; width: 50px; height: 50px;
+	margin-top: 9.4px; }
+
+	.iconCarrinho img:hover { filter: brightness(70%); transition: 0.1s; }
+	/*---------------------------------------------------------------------------------------*/
+	/* Header */
+
+	/*Main*/
+	main { max-width: 1020px; margin: 0 auto; min-height: 662px; margin-top: 83px; 
+	margin-bottom: 50px; color: #e8efff; }
+
+	.titulo { font-size: 30px; text-align: center; border-top-left-radius: 10px;
+    border-top-right-radius: 10px; background-color: #151d27; }
+
+	/* Box Login */
+	.boxLogin { width: 100%; height: 392px; border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; background-color: #090a15; }
+	.boxRegistro { width: 49%; height: 90%; }
+	.formulario { width: 49%; height: 90%; }
+	.barraBoxLogin { width: 100%; height: 10%; border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; background-color: #151d27; }
+
+	/* Divisão de Conteúdo */
+		.content_divider { background-color: #000; height: 90%; width: 1px; margin: 0px 9px; }
+	/* Divisão de Conteúdo */
+
+	.tituloRF p { font-size: 22px; }
+	.contRegis { text-align: justify; margin-top: 44px; }
+	.boxIRF { padding: 20px 20px; }
+
+	/* Botão Registrar */
+
+	.btnRegistrar
+	{
+		/*-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+		-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+		box-shadow:inset 0px 0px 0px 0px #ffffff;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+		background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);*/
+		background-color: #3b5779; border: 1px solid #dcdcdc; display: inline-block; cursor: pointer; color: #e8efff;
+		font-size: 14px; padding: 6px 24px; text-decoration: none; margin-top: 119px;
+		border-radius: 5px;
+	}
+
+	.btnRegistrar:hover
+	{
+		/*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+		background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);*/
+		background-color: #e8efff; transition: 0.2s;
+		color: #3b5779;
+	}
+	.btnRegistrar:active
+	{
+		position:relative;
+		top:1px;
+	}
+	/* Botão Registrar */
+
+	/* Formulário Login */
+	.erroSenhaUsuario { color: red; display: none; font-size: 10pt; margin-top: -17px; }
+
+	form { margin-top: 43px; }
+		form input[type=text] { width: 97.8%; height: 28px; background-color: black; border: 1px solid #151d27;
+    	border-radius: 9px;	padding-left: 10px; color: #e8efff; }
+    	form input[type=text]:focus { background-color: #151414; border: 1px solid #313e4e; }
+
+		form input[type=password] { width: 97.8%; height: 28px; background-color: black; border: 1px solid #151d27;
+    	border-radius: 9px;	padding-left: 10px; color: #e8efff; }
+    	form input[type=password]:focus { background-color: #151414; border: 1px solid #313e4e; }
+
+		form input[type=submit]{
+			/*-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+			-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+			box-shadow:inset 0px 0px 0px 0px #ffffff;
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+			background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+			background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+			background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+			background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+			background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);*/
+			background-color: #3b5779; border: 1px solid #dcdcdc; display: inline-block; cursor: pointer; color: #e8efff;
+			font-size: 14px; padding: 6px 24px; text-decoration: none; margin-top: 18px;
+			float: right; border-radius: 5px;
+		}
+
+		form input[type=submit]:hover{
+			/*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+			background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+			background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+			background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+			background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+			background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);*/
+			background-color: #e8efff; transition: 0.2s;
+			color: #3b5779;
+		}
+
+		form input[type=submit]:active{
+			position:relative;
+			top:1px;
+		}
+	/* Formulário Login */
+	/* Box Login */
+
+	/*Main*/
+
+	/* Footer */
+	.contFooter { width: 100%; background-color: #020205;
+   	color: white; text-align: center; height: 84px; margin-top: 0px; }
+	/*---------------------------------------------------------------------------------------*/
+   	.footer { width: 90%; margin: 0 auto; height: 70px; padding-top: 14px; }
+   	/*---------------------------------------------------------------------------------------*/
+   	.logo { width: 55px; height: 55px; margin-top: -5px; padding: 7.4px; }
+	/*---------------------------------------------------------------------------------------*/
+   	.containerMid { height: 60px; width: 670px; margin: 0 auto; border-top: 1px solid #191c3a;
+  	 border-bottom: 1px solid #191c3a; }
+   	.containerMid_copyright { padding-top: 18px; color: #758aba;}
+	/*---------------------------------------------------------------------------------------*/
+   	.iconRedeSocial { height: 40px; width: 90px; float: right; margin-top: -55px; }
+	   	.facebook { height: 40px; width: 40px; }
+	   	.twitter { height: 40px; width: 40px; margin-left: 10px; }
+	/* Footer */
+
+/* HTML */
+
+/* Responsividade */
+	/* CELULAR DE PÉ */
+	@media screen and (max-width: 450px) 
+	{
+		.img { height: 40px; width: 40px; margin-left: 2%; padding: 7.4px;
+		margin-top: 8px; }
+
+		.stormTitulo { display: none; }
+
+		.menu { width: 160px; height: 34px; margin-top: 19.4px; margin-left: 2px; }
+
+		.nav { width: 68px; height: 34px; padding-left: 0; margin-top: 0px; }
+		.nav li { list-style: none; text-align: center; font-size: 18px; }
+
+		.nav2 { width: 66px; height: 34px; padding-left: 0; }
+		.nav2 li { list-style: none; text-align: center; height: 34px;
+		font-size: 18px; margin-top: 0px; }
+
+		.menuPerfilEntrar { width: 111px; height: 69px; float: right;
+		margin-right: 5%; }
+		.perfilEntrar { font-size: 20px; width: 71px; height: 34px; float: left;
+		text-align: center; margin-top: 19.4px; }
+
+		.iconCarrinho { float: right; width: 33px; height: 33px; margin-top: 18.4px; }
+		/*---------------------------------------------------------------------------------------*/
+
+		
+
+		/*---------------------------------------------------------------------------------------*/
+
+		.contFooter { width: 100%; background-color: #020205;
+		color: white; text-align: center; margin-top: 0px; height: 100px; }
+
+		.footer { margin: 0 auto; height: 70px; padding-top: 14px; padding-left: 10px;
+		padding-right: 10px; }
+
+		.containerMid { height: 71px; margin: 0 auto; border-top: 1px solid #191c3a;
+		border-bottom: 1px solid #191c3a; width: 362px; }
+		.containerMid_copyright { padding-top: 19px; color: #758aba; font-size: 14px;
+		width: 262px; margin-left: 2px; }
+
+		.iconRedeSocial { height: 40px; width: 90px; float: right; margin-top: -51px; }
+			.facebook { height: 33px; width: 33px; }
+			.twitter { height: 33px; width: 33px; }
+
+		.logo { display: none; }
+	}
+/* Responsividade */

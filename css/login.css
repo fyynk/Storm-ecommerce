@@ -1,0 +1,137 @@
+/*Main*/
+main { max-width: 1020px; margin: 85px auto; color: #e8efff; }
+
+.contHeader { margin-top: -85px; }
+
+	.titulo { font-size: 18.5px; text-align: center; border-top-left-radius: 10px;
+    border-top-right-radius: 10px; background-color: #355b9426; padding-top: 5px; 
+	padding-top: 7px; padding-bottom: 5px; }
+
+	/* Box Login */
+	.boxLogin { width: 100%; min-height: 371px; border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%); 
+    box-shadow: 0px 7px 14px -6px rgba(0, 0, 0, 0.25); }
+
+	.boxRegistro { width: 49%; height: 90%; }
+
+	.formulario { width: 49%; height: 90%; }
+
+	/* DivisÃ£o de ConteÃºdo */
+		.content_divider { background-color: #000; height: 90%; width: 1px; margin: 0px 9px; }
+	/* DivisÃ£o de ConteÃºdo */
+
+	.tituloRF p { font-size: 14px; }
+	.contRegis { text-align: justify; margin-top: 44px; }
+	.boxIRF { padding: 20px 20px; }
+
+	/* BotÃ£o Registrar */
+
+	.btnRegistrar
+	{
+		border: 1px solid #4ea1d27d; display: inline-block; cursor: pointer; color: #a7cce4;
+		font-size: 12px; padding: 10px 15px 8px 15px; text-decoration: none; margin-top: 140px;
+		border-radius: 5px; text-transform: uppercase; font-weight: bold;
+	}
+
+	.btnRegistrar:hover
+	{
+		background-color: #4ea1d27d;
+		transition: 0.2s;
+		color: #e8efff;
+	}
+	.btnRegistrar:active
+	{
+		position:relative;
+		top:1px;
+	}
+	/* BotÃ£o Registrar */
+
+	/* FormulÃ¡rio Login */
+	.erroSenhaUsuario { color: red; display: none; font-size: 10pt; margin-top: -17px; }
+
+	form { margin-top: 43px; }
+		form input[type=email]{ color: #e8efff; }
+
+		form input[type=password] { width: 97.8%; height: 28px; background-color: black; border: 1px solid #151d27;
+    	border-radius: 9px;	padding-left: 10px; color: #e8efff; }
+    	form input[type=password]:focus { background-color: none; border: 1px solid none; transition: 0.2s; }
+
+		form input[type=submit]
+		{
+			border: 1px solid #4ea1d27d;
+			display: inline-block;
+			cursor: pointer;
+			color: #a7cce4;
+			font-size: 12px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			text-decoration: none;
+			background-color: transparent;
+			float: right;
+			border-radius: 5px;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		form input[type=submit]:hover{
+			background-color: #4ea1d27d;
+			transition: 0.2s;
+			color: #e8efff;
+		}
+
+		form input[type=submit]:active{
+			position:relative;
+			top:1px;
+		}
+	/* FormulÃ¡rio Login */
+	/* Box Login */
+
+	/*Main*/
+
+		/* Responsividade */
+
+	/* CELULAR DE PÉ */
+	@media screen and (max-width: 450px) 
+	{
+		.contHeader { margin-top: -288px !important; width: 1020px !important; }
+		.titulo { font-size: 34pt; padding: 25px; }
+		.boxRegistro { width: 100%; }
+		.formulario { width: 100%; }
+		.tituloRF p { font-size: 28pt; }
+		.contRegis p { font-size: 26pt; }
+		.btnRegistrar { font-size: 22pt; float: right; margin-right: 15px; }
+		.input-field > label { font-size: 2rem !important; }
+		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea
+		{ font-size: 28px !important; }
+		form input[type=submit] { font-size: 22pt; }
+		main { min-height: calc(235vh - 9px); margin-top: 300px; }
+	}
+
+	/* CELULAR DEITADO */
+	@media screen and (min-width: 451px) and (max-width: 650px) 
+	{
+		.contHeader { margin-top: -288px !important; width: 1020px !important; }
+		.titulo { font-size: 25pt; padding: 25px; }
+		.boxRegistro { width: 100%; }
+		.formulario { width: 100%; }
+		.tituloRF p { font-size: 20pt; }
+		.contRegis p { font-size: 18pt; }
+		.btnRegistrar { font-size: 16pt; float: right; margin-right: 15px; }
+		.input-field > label { font-size: 1.5rem !important; }
+		input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea
+		{ font-size: 22px !important; }
+		form input[type=submit] { font-size: 16pt; }
+		main { min-height: calc(143vh - 94px); margin-top: 300px; }
+	}
+
+	/* TABLET DE PÉ */
+	@media screen and (min-width: 651px) and (max-width: 960px) 
+	{
+		.contHeader { margin-top: -200px !important; }
+		main { margin-top: 200px; min-height: calc(150vh - 312px); }
+
+	}
+
+/* Responsividade */

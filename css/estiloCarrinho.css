@@ -1,0 +1,129 @@
+body { padding: 0; margin: 0;}
+html { font-family: Arial; background: linear-gradient(0deg, #1d3e52 0%, #090c13 100%);}
+
+/* Padronização */
+
+		.fl { float: left; }
+		.cls { clear:both; }
+		p { font-family: Arial; font-size: 16px; }
+		a.linkPadrao { text-decoration: none; color: #000; }
+		a.linkPadrao:hover { color:#1067b8;}
+
+	/* Teste Cores */
+		.cor1 { background-color: #114271; }
+		.cor2 { background-color: #203851; }
+		.cor3 { background-color: #355b9426; }
+		.cor4 { background-color: #6d1155; }
+		.cor5 { background-color: #114271; }
+		.cor6 { background-color: #3248ad; }
+	/* Teste Cores */
+/* Padronização */
+
+/* HTML */
+
+
+	/*Main*/
+	main { max-width: 860px; margin: 0 auto; min-height: 545px; margin-top: 80px; 
+	color: #e8efff; margin-bottom: 127px; }
+
+	.titulo { text-align: center; border-top-left-radius: 10px;
+	border-top-right-radius: 10px; background-color: #355b9426; padding: 9px 2px 9px 2px; 
+	font-size: 15pt; }
+
+	.boxCarrinhoJogo { width: 70%; border-radius: 0px 0px 10px 10px; min-height: 188px;
+	background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%); box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.17); }
+
+	.boxItensCompra { width: 100%; min-height: 120px; }
+
+	.boxFormaPagamento { width: 30%; border-radius: 0px 0px 10px 10px; padding-bottom: 13px;
+	padding-top: 13px; background-color: #355b9426; box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.17); }
+
+	.colJogo { width: 100%; height: 67px; outline: 1px solid #0f101d42; outline-offset: -1px; }
+
+		.colJogo img { object-fit: cover; }
+
+	.imgColJogo { width: 170px; height: 51px; padding: 8px; }
+	.imgColJogo img { width: 100%; height: 100%; border-radius: 3px; }
+
+	.tituloJogo { width: 43%; height: 67px; }
+		.tituloJogo p { font-size: 10pt; word-break: break-all; padding: 8px 7px; color: white !important;
+		margin: 0; }
+
+	.imgCarrinhoVazio { width: 100px; height: 100px; margin: 0 auto; margin-top: 20px; padding-bottom: 56px; }
+		.imgCarrinhoVazio img { opacity: 0.2; }
+	.imgCarrinhoVazio p { margin: 0; width: 203px; margin-top: 11px; font-weight: bold;
+	margin-left: -3px; opacity: 0.2; }
+
+	.valorJogo { width: 25.7%; height: 100%; border-left: 1px solid #0f101d42; } 
+		.valorJogo p { text-align: center; padding: 7px; margin: 0; font-size: 10.6pt; }
+
+	.valorJogo--preco { color: white; }
+
+	.valorJogo--remover { color: #ffffff73; }
+	.valorJogo--remover:hover { color: #4ea1d27d; transition: 0.1s; }
+
+	/* Botão */
+	.btn
+	{
+		/*-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+		-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+		box-shadow:inset 0px 0px 0px 0px #ffffff;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+		background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+		background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);*/
+		border: 1px solid #4ea1d27d; display:inline-block; cursor: pointer; background-color: transparent;
+		color: #a7cce4; font-size: 13.3px; font-weight: bold; padding: 0px 8px; text-decoration: none;
+		border-radius: 5px; margin-left: 1%; text-transform: uppercase; box-shadow: none;
+	}
+
+	.btn:hover
+	{
+		/*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+		background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+		background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);*/
+		background-color: #4ea1d27d; transition: 0.2s; color: #e8efff; box-shadow: none;
+	}
+	.btn:active
+	{
+		position:relative;
+		top:1px;
+	}
+	/* Botão */
+	/* Especificações de cada Botão */
+	.boxContinuarC { width: 90%; margin-top: 0.8%; margin-left: 12%; border-radius: 5px; }
+
+	.cC { margin-top: 0px; margin-bottom: 20px; margin-left: -1px; padding-top: 3px; 
+	width: 182px; }
+
+	.boxFinalizarP { width: 90%; margin-left: 5%; border-radius: 5px;
+    height: 100px; background-color: #0f101d42; }
+
+	.fC { float: right; margin-right: 8%; margin-top: 20%; padding-top: 1px; padding-right: 30px; padding-left: 30px; }
+	/* Especificações de cada Botão */
+
+	.valorSubTotal { float: left; border: none; margin-top: 0px; 
+	background-color: transparent; }
+		.valorSubTotal p { text-align: center; text-transform: uppercase; margin-top: 13%; 
+		font-weight: bold; float: left; margin: 0; padding: 18px 1px 15px 22px; }
+
+	.valorSubTotal2 { width: 30%; float: right; border: none; margin-top: 0px; 
+	background-color: transparent; }
+		.valorSubTotal2 p { text-align: center; text-transform: uppercase; margin-top: 13%; font-weight: bold;
+		margin: 0; padding: 18px 0px 1px 17px; }
+
+	.valorTotal { width: 100%; height: 0px; float: right; margin-right: 0%;
+    border: none; margin-top: 0px; background-color: transparent; }
+    		.valorTotal p { text-align: center; text-transform: uppercase; margin-top: 8%; font-weight: bold; 
+    		font-size: 10.5pt; }
+
+	/*Main*/
+
+/* HTML */

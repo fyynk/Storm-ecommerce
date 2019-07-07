@@ -1,0 +1,143 @@
+body { padding: 0; margin: 0;}
+html { font-family: Gadugi; background: linear-gradient(0deg, rgba(2,2,5,1) 0%, rgba(21,29,39,1) 100%); }
+
+/* Padronização */
+
+		.fl { float: left; }
+		.cls { clear:both; }
+		a.linkPadrao { text-decoration: none; color: #e8efff; transition: 0.1s; }
+		a.linkPadrao:hover { color: #b8c7d6; }
+	/* Teste Cores */
+		.cor1 { background-color: #439686; }
+		.cor2 { background-color: #151d27; }
+		.cor3 { background-color: #263241; }
+		.cor4 { background-color: #6d1155; }
+		.cor5 { border: 1px solid #435467; background: rgba(95,115,138,.3); border-radius: 4px; }
+		.cor6 { background-color: #263241; }
+	/* Teste Cores */
+/* Padronização */
+
+/* HTML */
+	/* Header */
+		.contHeader { width: 100%; height: 61px; margin-top: -80px; margin-bottom: 0px; background-color: #090a15;
+		box-shadow: 0 2px 7px 0 rgba(0,0,0,.5); position: fixed; z-index: 2; }
+		/*---------------------------------------------------------------------------------------*/
+		.img { height: 42px; width: 42px; margin-left: 5%; padding: 11.4px; }
+
+		.stormTitulo { width: 173px; height: 55px; margin-top: 1px;
+		font-size: 43px; padding-left: 0px; font-weight: bold; margin-bottom: 0px; }
+			.stormTitulo a { text-decoration: none; color: #e8efff; }
+		/*---------------------------------------------------------------------------------------*/
+		.menu { width: 160px; height: 20px; margin-top: 19.4px; margin-left: 21px; float: right;
+		border-right: 1px solid #2a3748; margin-right: 5px; }
+
+		.nav { width: 80px; height: 34px; padding-left: 0; margin-top: -3px; margin-bottom: 0px; } 
+			.nav li { list-style: none; text-align: center; font-size: 13pt; }
+			.nav a { color: #e8efff; text-decoration: none; }
+				.nav a:hover { color: #758aba; transition: 0.1s; }
+		/*---------------------------------------------------------------------------------------*/
+		.nav2 { width: 80px; height: 34px; padding-left: 0; margin-top: -3px; }
+			.nav2 li { list-style: none; text-align: center; height: 34px; font-size: 13pt; 
+			margin-top: 0px; }
+			.nav2 a { color: #e8efff; text-decoration: none; }
+				.nav2 a:hover { color: #758aba; transition: 0.1s; }
+		/*---------------------------------------------------------------------------------------*/
+		.menuPerfilEntrar { width: 115px; height: 61px; float: right; margin-right: 5%; }
+
+		.perfilEntrar { font-size: 13pt; width: 67px; height: 34px; float: left; text-align: center; 
+		margin-top: 17.4px; display: none;}
+			.perfilEntrar a { color: #e8efff; text-decoration: none; }
+				.perfilEntrar a:hover { color: #758aba; transition: 0.1s; }
+
+		.perfilNome { font-size: 13pt; width: 67px; height: 34px; float: left; text-align: center; 
+		margin-top: 17.4px; display: block; }
+			.perfilNome p { color: #e8efff; text-decoration: none; margin: 0; }
+				.perfilNome p:hover { color: #758aba; transition: 0.1s; }
+
+		.iconCarrinho { float: right; width: 30px; height: 30px;
+		margin-top: 15.4px; }
+
+		.iconCarrinho img:hover { filter: brightness(70%); transition: 0.1s; }
+		/*---------------------------------------------------------------------------------------*/
+	/* Header */
+
+/*Main*/
+
+	main { max-width: 1020px; margin: 0 auto; background-color: #151d27; padding-top: 1px; 
+	padding-bottom: 89px; padding-left: 5px; padding-right: 1px; margin-bottom: 0px; margin-top: 80px; }
+
+	.fontDestaque p { text-align: center; font-size: 32px; font-family: Gadugi; color: #e8efff; 
+	padding-bottom: 4px; background-color: #2a3748; border-radius: 3px; }
+
+	.swiper-container { width: 752px; height: 305px; position: relative; }
+
+    .swiper-slide { display: flex; justify-content: center; align-items: center; }
+
+    .swiper-slide img { max-width: 640px; min-height: 305px; }
+
+    .nm_app { width: 100px; height: 25px; margin: 0 auto; }
+
+	.content_divider { border-top: 3px solid #2a3748; width: 96%; margin: 40px auto; }
+   
+    .col1Titulo { width: 1020px; height: 43px; margin-bottom: 14px; margin-top: 32px; }
+
+    .estiloTitulo { font-size: 30px; width: 440px; margin-top: 7px; font-family: Gadugi; color: #e8efff;
+    float: left; padding-bottom: 3px; margin-left: 7px; }
+
+    	.estiloTitulo_Mais { width: 83px; height: 22px; float: right; margin-top: 17px; text-align: center;
+   		 margin-right: 5px; padding: 6px 0px 4px 0px; border: 1px solid #638aa9; font-size: 14px; border-radius: 3px; 
+		background-color: #3b5779; color: #e8efff; transition: 0.1s; font-weight: bold; text-transform: uppercase; }
+
+		.estiloTitulo_Mais:hover { background-color: #e8efff; color: #3b5779; }
+
+    .col1Titulo a { text-decoration: none; color: #e8efff; }
+
+    #swp-btn-nxt { filter: grayscale(85%); }
+    #swp-btn-prv { filter: grayscale(85%); }
+
+
+    .categoriaJogo { box-shadow: 0px 8px 6px -8px rgba(0,0,0,0.75); } 
+    	.categoriaJogo img { object-fit: cover; transition: 0.1s; }
+    	.categoriaJogo img:hover { filter: brightness(105%); }
+    .col1de4 { font-weight: bold; }
+    .maisJogado img { object-fit: cover; transition: 0.1s; }
+    .maisJogado img:hover { filter: brightness(105%); }
+
+    .maisJogado .col1de4 { width: 45%; }
+
+    .col1de4 { width: 20%; height: 205px; padding: 25px; border-radius: 10px; outline: 2px solid #151d27; 
+    outline-offset: -1px; }
+    .col1de4 .imgCol1de4 { height: 70%; }
+    .col1de4 .imgCol1de4 img { width: 100%; height: 100%; }
+
+    .titulo { height: 18%; white-space: nowrap!important; 
+    text-overflow: ellipsis; overflow: hidden; line-height: 2;}
+    .valor { margin: 0 auto; width: 100%; height: 13%; text-align: center; margin-top: 2px; 
+    margin-left: 0px; padding-top: 4px; transition: 0.1s; }
+    .valor:hover { background-color: #1c232b; color: white; }
+
+/*Main*/
+
+/* Footer */
+	.contFooter { width: 100%; background-color: #020205;
+   	color: white; text-align: center; height: 84px; margin-top: 0px; }
+	/*---------------------------------------------------------------------------------------*/
+   	.footer { width: 90%; margin: 0 auto; height: 70px; padding-top: 14px; }
+   	/*---------------------------------------------------------------------------------------*/
+   	.logo { width: 55px; height: 55px; margin-top: -5px; padding: 7.4px; }
+   	.logo a img:hover { filter: invert(30%); transition: 0.3s; }
+	/*---------------------------------------------------------------------------------------*/
+   	.containerMid { height: 60px; width: 670px; margin: 0 auto; border-top: 1px solid #191c3a;
+  	 border-bottom: 1px solid #191c3a; }
+   	.containerMid_copyright { padding-top: 18px; color: #758aba;}
+	/*---------------------------------------------------------------------------------------*/
+   	.iconRedeSocial { height: 40px; width: 90px; float: right; margin-top: -55px; }
+	   	.facebook { height: 40px; width: 40px; }
+	   	.facebook a img{ filter: brightness(5); }
+	   	.facebook a img:hover { filter: none; transition: 0.3s; }
+	   	.twitter { height: 40px; width: 40px; margin-left: 10px; }
+	   	.twitter a img { filter: brightness(5); }
+	   	.twitter a img:hover { filter: none; transition: 0.3s; }
+	/* Footer */
+
+/* HTML */

@@ -1,0 +1,70 @@
+main { margin: 0 auto; margin-top: 80px; width: 980px; padding: 17px; border-radius: 5px; }
+
+	.main--box-sobre { width: 800px; margin: 0 auto; background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%);
+	padding: 10px; border-radius: 2px; padding-bottom: 15px; }
+
+	.box-sobre-img_1 { bottom: 0px; height: 320px; width: 800px; border-radius: 5px; border: 1px solid #2a3748; }
+
+	.box-sobre-img_1 img { object-fit: cover; border-radius: 5px; width: 100%; height: 100%; }
+
+	.box-sobre-cont { width: 660px; margin: 0 auto; background-color: #355b9426; margin-top: 20px; 
+	padding-bottom: 15px; border-radius: 5px; }
+
+	.sobre-cont-titulo { background-color: #355b9426; padding-top: 2px; padding-bottom: 2px; border-radius: 5px 5px 0px 0px; }
+		.sobre-cont-titulo p { margin: 0; font-size: 14pt; text-align: center; font-weight: bold; color: #e8efff;
+		padding: 6px 0px 6px 0px; }
+
+	.sobre-cont-desc { padding: 5px; padding-top: 14px; line-height: 23px; }
+		.sobre-cont-desc p { margin: 0; padding-bottom: 6px; padding-left: 9px; padding-right: 9px;
+		color: #e8efff; text-align: justify; font-size: 10.5pt; }
+
+	.sobre-cont-linkBtn { width: 332px; margin: 0 auto; border-radius: 5px; }
+		.sobre-cont-linkBtn a { text-decoration: none; color: white; }
+
+	.sobre-cont-btn {
+	width: 330px;
+	background-color: transparent;
+	margin: 0 auto;
+	border-radius: 4px;
+	border: 1px solid #4ea1d27d;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	}
+		.sobre-cont-btn:hover { background-color: #4ea1d27d; color: #e8efff; transition: 0.2s; }
+
+		.sobre-cont-btn p { margin: 0; font-size: 10.5pt; text-align: center; font-weight: bold; 
+		text-transform: uppercase; }
+
+	.box-sobre-cont2 {
+	height: 435px;
+	background-color: #08090a8c;
+	/* border: 1px solid #2b323c; */
+	width: 775px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 8px;
+	border-radius: 5px;
+	}
+
+	.sobre-cont2-box { float: left; width: 226px; padding: 6px; height: 412px; margin-right: 10px; margin-left: 10.3px;
+	margin-top: 10px; }
+		.sobre-cont2-box:hover .cont2-img {background-color: #1f468296;transition: 0.5s;}
+		.sobre-cont2-box:hover .cont2-desc {background-color: #05090ca1;transition: 0.5s;}
+
+	.cont2-img {
+	height: 130px;
+	width: 130px;
+	background-color: #0000001f;
+	border-radius: 76px;
+	margin: 0 auto;
+	}
+		.cont2-img img { width: 80px; height: 80px; padding: 25px; }
+	.cont2-desc {height: 277px;background-color: #0d10157d;border-radius: 15px;margin-top: 5px;}
+
+	.desc-titulo { font-size: 14.5pt; font-weight: bold; }
+		.desc-titulo p { margin: 0; }
+
+	.enviarJogo { font-weight: bold; color: #96c7ff; text-decoration: none; }
+
+		.cont2-desc p {margin: 0;color: #ffffff8f;padding: 10px;line-height: 22.9px;text-align: center;}
+	/* Main */

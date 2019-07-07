@@ -1,0 +1,72 @@
+html { font-family: Arial, sans-serif; background: linear-gradient(0deg, #1d3e52 0%, #090c13 100%); 
+scroll-behavior: smooth; }
+body { padding: 0; margin: 0; }
+
+main { margin: 0 auto; margin-top: 80px; width: 800px; padding: 15px;
+background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%); }
+
+.cls { clear: both; }
+
+[type="checkbox"] + span:not(.lever) { font-size: 0.8rem; }
+
+.cont { display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px; }
+
+.tituloEnvieSeuJogo { padding: 4px 0px 4px 0px; font-size: 10.5pt; color: #e8efff; font-weight: bold; }
+
+.tituloCaracteristicasJogos { padding: 4px 0px 4px 0px; font-size: 10.5pt; color: #e8efff; font-weight: bold; }
+
+.tituloCategorias { padding-top: 9px; padding-bottom: 15px; font-size: 10.5pt; color: #e8efff; }
+
+.tituloMidia { padding: 4px 0px 4px 0px; font-size: 10.5pt; color: #e8efff; font-weight: bold; }
+
+.tituloTermos { padding: 4px 0px 4px 0px; font-size: 10.5pt; color: #e8efff; font-weight: bold; }
+
+.tituloAnexo { font-size: 10.5pt; color: #e8efff; }
+
+.box-1 { padding: 10px; background-color: #355b9426; border-radius: 2px; margin-bottom: 5px; }
+	.box-1 p { margin: 0; margin-bottom: 14px; }
+	.box-1 input[type=text]{ color: #e8efff; }
+
+.box-2 { padding: 10px; background-color: #355b9426; border-radius: 2px; margin-bottom: 5px; }
+	.box-2 p { margin: 0; }
+	.box-2 span { font-size: 10pt; }
+		.box-2-cont input[type=text]{ color: #e8efff; }
+.box-3 { padding: 10px; background-color: #355b9426; border-radius: 2px; margin-bottom: 5px; }
+	.box-3 p { margin: 0; }
+	.box-3 input[type=file]{ padding: 11px; color: #dbfff9; background-color: #1e84a2; border: none; margin-top: 10px;
+	border-radius: 3px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); 
+	cursor: pointer; transition: 0.2s; padding-right: 17px; padding-left: 17px; }
+	.box-3 input.file { visibility: hidden; }
+	.box-3 input[type=file]hover { background-color: #2bbbad; }
+
+	.maisImagens { margin-top: 10px; margin-right: 2px; }
+
+	.maisImagens-img { height: 210px; width: 388px; }
+
+	.divFileImg { padding: 9px; border: 1px solid #1e84a2; width: 207px; margin: 0; float: left; text-align: center;
+	border-radius: 5px; margin-top: 1px; background-color: #1e84a27d; color: #e8efff; font-size: 10.5pt;
+	cursor: pointer; transition: 0.2s; margin-top: 4px; }
+		.divFileImg:hover { background: #1e5c7652; border: 1px solid #1e82a075; color: #e8efffbf; }
+
+	.enviarImgBtn { padding: 9px; border: 1px solid #4ea1d27d; border-radius: 5px; font-size: 10.5pt;
+	width: 36.2%; color: #e8efff; background: transparent; transition: 0.2s; cursor: pointer; 
+	margin-top: 1px; float: right; margin-top: 4px; }
+		.enviarImgBtn:hover { background-color: #0f191f99; }
+
+.imgDestaque { width: 460px; height: 215px; border-radius: 5px; margin-top: 7px; }
+	.imgDestaque img { width: 100%; height: 100%; border-radius: 5px; }
+
+.box-4 { padding: 10px; background-color: #355b9426; border-radius: 2px; }
+	.box-4 p { margin: 0; }
+	.box-4 input[type=submit]{ padding: 11px; color: #dbfff9; background-color: #1e84a2; border: none; margin-top: 10px;
+	border-radius: 3px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); 
+	cursor: pointer; transition: 0.2s; font-size: 9.4pt; padding-left: 50px; padding-right: 50px; float: right; }
+		.box-4 input[type=submit]:hover{ background-color: #2bbbad; }
+
+.box-4 textarea { width: 747px; resize: none; padding: 12pt; border: 1px solid #18283b; background-color: #19242d85;
+border-radius: 5px; color: #e8efff61; font-size: 10.5pt; margin-top: 6px; }

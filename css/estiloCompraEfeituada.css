@@ -1,0 +1,16 @@
+body { padding: 0; margin: 0; }
+
+main { margin-top: 80px; min-height: calc(111vh - 219px);}
+
+.compra { width: 344px; margin: 0 auto; padding: 10px; border-radius: 5px;
+background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%); }
+	.compra h6 { font-weight: bold; color: #e8efff; text-align: center; opacity: 0.2; }
+	.compra a { color: #e8efff; text-decoration: none; }
+		.compra p { text-align: center; padding: 8px; margin: 0; text-transform: uppercase;
+		font-size: 14px; }
+
+.compra-img { height: 100px; width: 100px; margin: 0 auto; }
+	.compra-img img { opacity: 0.2; }
+
+.compraBtn { border-radius: 3px; border: 1px solid #4ea1d27d; transition: 0.2s; }
+	.compraBtn:hover { background-color: #4ea1d27d; }

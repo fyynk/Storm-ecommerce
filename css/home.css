@@ -1,0 +1,271 @@
+/* Padronização */
+
+        .fl { float: left; }
+        .cls { clear:both; }
+        a.linkPadrao { text-decoration: none; color: #e8efff; transition: 0.1s; }
+    /* Teste Cores */
+        .cor1 { background-color: #439686; }
+        .cor2 { background-color: #151d27; }
+        .cor3 { background-color: #355b9426; }
+        .cor4 { background-color: #6d1155; }
+    /* Teste Cores */
+/* Padronização */
+
+/* HTML */
+/*Main*/
+
+    main { max-width: 1020px; margin: 0 auto; background: linear-gradient(0deg, #20223c26 0%, #0a0a10 100%); padding-top: 1px; 
+    padding-bottom: 45px; padding-left: 5px; padding-right: 5px; margin-bottom: 30px; 
+    margin-top: 80px; padding-top: 5px; border-radius: 5px; }
+
+    .fontDestaque p { text-align: center; font-size: 32px; color: #e8efff; padding-bottom: 4px; background-color: #2a3748;
+    border-radius: 3px; }
+
+    .swiper-container { width: 1020px; height: 455px; position: relative; border-radius: 5px; }
+
+    .swiper-pagination { background-color: #0c0e15; }
+
+    .swiper-pagination-bullets { left: 384px; }
+    /* Texts of Swiper */
+    .text-block { position: absolute; background-color: #090d10d4; color: #e8efff; padding-left: 20px; padding-right: 20px; }
+    .text-block--nome {  bottom: 80px; left: 20px; border-radius: 10px; padding-bottom: 7px; }
+
+    h5 { font-weight: bold; }
+
+    .text-block--valor { bottom: 20px; left: 20px; border-radius: 5px; }
+    .text-block--valor p { font-size: 10.5pt !important; }
+
+    .swiper-slide { justify-content: center; align-items: center; }
+
+    .swiper-slide img { display: block; border-radius: 5px; width: 100%; }
+
+    .nm_app { width: 100px; height: 25px; margin: 0 auto; }
+
+    .content_divider { border-top: 3px solid #131c2c; width: 100%; margin-top: 5px; }
+   
+    .col1Titulo { width: 1020px; height: 39px; margin-top: 32px; margin-bottom: 2px; }
+
+    .estiloTitulo { font-size: 21.4px; font-weight: bold; color: #e8efff;
+    float: left; padding-bottom: 3px; margin-left: 7px; margin-top: 10px; }
+
+        .estiloTitulo_Mais { width: 106px; height: 22px; float: right; margin-top: 1px; text-align: center;
+        margin-right: 5px; padding: 9px 0px 2px 0px; border: 1px solid #4ea1d27d; font-size: 14px; border-radius: 3px; 
+        color: #a7cce4; transition: 0.1s; font-weight: bold; text-transform: uppercase; }
+
+        .estiloTitulo_Mais:hover { background-color: #4ea1d27d; color: #e8efff; }
+
+    .col1Titulo a { text-decoration: none; color: #e8efff; }
+
+    #swp-btn-nxt { filter: grayscale(100%) brightness(100); background-color: #00000099;
+    padding: 11px; border-radius: 6px; margin-top: -37px; }
+    #swp-btn-prv { filter: grayscale(100%) brightness(100); background-color: #00000099;
+    padding: 11px; border-radius: 6px; margin-top: -37px; }
+
+    .categoriaJogo { box-shadow: 0px 8px 6px -8px rgba(0,0,0,0.75); } 
+        .categoriaJogo img { object-fit: cover; transition: 0.1s; }
+
+    .col1de4 { font-weight: bold; }
+
+    .maisJogado img { object-fit: cover; transition: 0.1s; }
+    .maisJogado .valor { width: 93%; height: none; }
+
+    .maisJogado .col1de4 { width: 49.2%; }
+    .maisJogado .titulo { font-size: 16.9px; }
+
+    .col1de4 { width: 24.2%; padding: 4px; border-radius: 10px; outline: 2px solid #0f101d42; 
+    outline-offset: -1px; }
+
+    .col1de4 .imgCol1de4 { height: auto; }
+    .col1de4 .imgCol1de4 img { width: 100%; height: 100%; border-radius: 5px; }
+
+    .titulo { height: 50px; text-overflow: ellipsis; overflow: hidden; line-height: 1.6; 
+    padding-top: 4px; font-weight: normal; }
+
+    .valor { margin: 0 auto; width: 85.5%; height: 10%; text-align: center; margin-top: 2px; 
+    margin-left: 0px; padding-top: 5px; padding-bottom: 5px; transition: 0.1s; border: 1px solid #4f8188b0; background: #39869e24; 
+    border-radius: 4px; float: left; font-size: 11pt; }
+        .valor:hover { background-color: #172633; color: white; border: 1px solid #315467; }
+
+    .addCarrinho { float: right; background-color: #0d0d1b63; margin-top: 1.9px; margin-right: 1px; height: 21px;
+    width: 21px; padding: 3.5px; border-radius: 3px; border: none; cursor: pointer; }
+
+    .addCarrinho img { opacity: 0.3; }
+
+    .addCarrinho:hover img { opacity: 0.7; }
+
+    button:focus { background-color: #0d0d1b63; outline: none; }
+
+    /* The snackbar - position it at the bottom and in the middle of the screen */
+    #snackbar {
+      visibility: hidden; /* Hidden by default. Visible on click */
+      min-width: 250px; /* Set a default minimum width */
+      margin-left: -10.2%; /* Divide value of min-width by 2 */
+      background-color: #1897c5ab; /* Black background color */
+      font-weight: bold;
+      color: #fff; /* White text color */
+      text-align: center; /* Centered text */
+      border-radius: 6px; /* Rounded borders */
+      padding: 16px; /* Padding */
+      position: fixed; /* Sit on top of the screen */
+      z-index: 1; /* Add a z-index if needed */
+      left: 50%; /* Center the snackbar */
+      bottom: 30px; /* 30px from the bottom */
+    }
+
+    /* Show the snackbar when clicking on a button (class added with JavaScript) */
+    #snackbar.show {
+      visibility: visible; /* Show the snackbar */
+      /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+      However, delay the fade out process for 2.5 seconds */
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+
+    /* Animations to fade the snackbar in and out */
+    @-webkit-keyframes fadein {
+      from {bottom: 0; opacity: 0;} 
+      to {bottom: 30px; opacity: 1;}
+    }
+
+    @keyframes fadein {
+      from {bottom: 0; opacity: 0;}
+      to {bottom: 30px; opacity: 1;}
+    }
+
+    @-webkit-keyframes fadeout {
+      from {bottom: 30px; opacity: 1;} 
+      to {bottom: 0; opacity: 0;}
+    }
+
+    @keyframes fadeout {
+      from {bottom: 30px; opacity: 1;}
+      to {bottom: 0; opacity: 0;}
+    }
+
+/*Main*/
+
+/* Responsividade */
+    /* CELULAR DE PÉ */
+
+    @media screen and (min-width: 450px max-width: 720px) 
+    {
+        .addCarrinho { margin-right: 15px; height: 36px; width: 35px; margin-top: 0%; }
+    }
+
+    @media screen and (max-width: 450px) 
+    {       
+
+        main { width: 100%; min-height: 450px }
+
+        .swiper-container { width: 100%; height: 455px; border-radius: 5px; }
+
+        .swiper-pagination { background-color: #0c0e15; }
+
+        .swiper-pagination-bullets { left: 384px; }
+
+        .swiper-slide { width: 1040px; justify-content: center; align-items: center; overflow: hidden; }
+
+        .swiper-slide img { display: block; border-radius: 5px; width: 100%; }
+    
+        .nm_app { width: 100px; height: 25px; margin: 0 auto; }
+
+        .content_divider { border-top: 10px solid #131c2c; width: 100%; margin-top: 50px; }
+   
+        .col1Titulo { width: 1020px; height: 65px; margin-top: 32px; margin-bottom: 2px; padding-bottom: 1%;
+        padding-top: 4%; }
+   
+        .estiloTitulo { font-size: 45.4px; font-weight: bold; color: #e8efff;
+        float: left; padding-bottom: 3px; margin-top: 10px; }
+
+        .estiloTitulo_Mais { width: 165px; height: 45px; font-size: 28px; }
+
+        .estiloTitulo_Mais:hover { background-color: #4ea1d27d; color: #e8efff; }
+
+        .col1Titulo a { text-decoration: none; color: #e8efff; }
+
+        .maisJogado .col1de4 { width: 45.2%; padding-bottom: 36px; margin: 20px; }
+
+        .maisJogado .titulo { font-size: 30.9px; }
+
+        .maisJogado .valor  { width: 83%; height: 30px; margin-top: 0%; font-size: 24px; }
+
+        .boxTitulo { margin-left: 34.5%; }
+
+        .col1de4 {width: 49.2%}
+
+        .titulo { font-size:30px }
+
+        .valor { width: 85%; font-size: 24px; }
+
+        .addCarrinho { margin-top: -9.1px; margin-right: 11px; height: 44px; width: 40px; }
+
+    }
+
+    /* CELULAR DEITADO */
+    @media screen and (min-width: 451px) and (max-width: 650px) 
+    {
+        .iconCarrinho { margin-top: 17.4px; }
+
+        .nomeUsuario { margin-top: 20.4px; }
+
+        .img {margin-left: 46.8%; }
+
+        main { min-width: 1015px; min-height: 450px }
+
+        .swiper-container { width: 100%; height: 455px; border-radius: 5px; }
+
+        .swiper-pagination { background-color: #0c0e15; }
+
+        .swiper-pagination-bullets { left: 384px; }
+
+        .swiper-slide { width: 1040px; justify-content: center; align-items: center; overflow: hidden; }
+
+        .swiper-slide img { display: block; border-radius: 5px; width: 100%; }
+    
+        .nm_app { width: 100px; height: 25px; margin: 0 auto; }
+
+        .content_divider { border-top: 10px solid #131c2c; width: 100%; margin-top: 50px; }
+   
+        .col1Titulo { width: 1020px; height: 65px; margin-top: 32px; margin-bottom: 2px; padding-bottom: 1%;
+        padding-top: 4%; }
+   
+        .estiloTitulo { font-size: 35.4px; font-weight: bold; color: #e8efff;
+        float: left; padding-bottom: 3px; margin-top: 10px; }
+
+        .estiloTitulo_Mais { width: 165px; height: 45px; font-size: 28px; }
+
+        .estiloTitulo_Mais:hover { background-color: #4ea1d27d; color: #e8efff; }
+
+        .col1Titulo a { text-decoration: none; color: #e8efff; }
+
+        .maisJogado .col1de4 { width: 45.2%; padding-bottom: 36px; margin: 20px; }
+
+        .maisJogado .titulo { font-size: 30.9px; }
+
+        .maisJogado .valor  { width: 83%; height: 30px; margin-top: 0%; font-size: 24px; }
+
+        .boxTitulo { margin-left: 38.5%; }
+
+        .col1de4 {width: 49.2%}
+
+        .titulo { font-size:30px }
+
+        .valor { width: 85%; font-size: 24px; }
+
+    }
+    /* TABLET DE PÉ */
+    @media screen and (min-width: 651px) and (max-width: 960px) 
+    {
+
+
+
+    }
+
+    @media screen and (min-width: 961px) and (max-width: 1008px)
+    {
+        .maisJogado .col1de4 { width: 49.1% !important; }
+        .col1de4 { width: 24.1% !important; }
+        .col1Titulo { width: 100%; }
+        .swiper-container{ width: 100%; }
+    }
+/* Responsividade */
